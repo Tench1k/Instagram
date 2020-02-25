@@ -167,3 +167,22 @@ header {
     height: 300px;
     object-fit: cover;
 }
+@font-face {
+    font-family: 'billabong';
+    src: url('https://www.fonts-online.ru/font/Billabong');
+    src: url('https://www.fonts-online.ru/font/Billabong') format('embedded-opentype'),
+    url('https://www.fonts-online.ru/font/Billabong') format('woff'),
+    url('https://www.fonts-online.ru/font/Billabong') format('truetype'),
+    url('https://www.fonts-online.ru/font/Billabong') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.menu__name {
+
+    color: #000000;
+    text-decoration: none;
+    font-size: 300%;
+    font-family: "Billabong Regular";
+    padding-right: 62.5%;
+}
